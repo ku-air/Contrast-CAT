@@ -61,6 +61,8 @@ We evaluated Contrast-CAT under both **MoRF** (Most Relevant First) and **LeRF**
 |         | LOdds ↓| 0.367 (TIS)    | **0.157**        |
 | IMDB    | AOPC ↑ | 0.644 (AttCAT) | **0.738**        |
 |         | LOdds ↓| 0.198 (AttCAT) | **0.101**        |
+| AG News    | AOPC ↑ | 0.354 (TIS) | **0.434**        |
+|         | LOdds ↓| 0.473 (AttCAT) | **0.363**        |
 
 > **↑ Higher is better**, **↓ Lower is better**
 
