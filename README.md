@@ -1,7 +1,7 @@
 # Contrast-CAT: Contrasting Activations for Enhanced Interpretability in Transformer-based Text Classifiers, UAI'25
 **Sungmin Han, Jeonghyun Lee, Sangkyun Lee (Corresponding author)**  
 
-Korea University (AIRLAB)
+AIRLAB, School of Cybersecurity, Korea University
 
 ---
 
