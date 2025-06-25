@@ -27,7 +27,7 @@ We used five publicly available NLP datasets for text classification tasks:
   _Zhang et al._ [Character-level Convolutional Networks for Text Classification](https://papers.nips.cc/paper_files/paper/2015/file/250cf8b51c773f3f8dc8b4be867a9a02-Paper.pdf). NeurIPS, 2015.
 
 - **Yelp Polarity**  
-  _Xiang Zhang et al._ Same as Amazon Polarity (subset of the same paper).
+  _Zhang et al._ [Character-level Convolutional Networks for Text Classification](https://papers.nips.cc/paper_files/paper/2015/file/250cf8b51c773f3f8dc8b4be867a9a02-Paper.pdf). NeurIPS, 2015.
 
 - **SST-2**  
   _Socher et al._ [Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank](https://aclanthology.org/D13-1170). EMNLP, 2013.
