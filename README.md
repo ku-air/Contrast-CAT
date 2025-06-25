@@ -24,7 +24,7 @@ Keywords: Transformer, Interpretability, XAI, Attention, Contrast-based
 ### 🧪 Model
 
 We implemented Contrast-CAT on top of the **BERT-base** architecture (12 encoder layers, 12 attention heads) using the Hugging Face Transformers library.
-While our method is model-agnostic and readily applicable to other transformer variants (e.g., RoBERTa, DistilBERT), all primary experiments were conducted using **BERT-base** to ensure consistent comparison with prior work.  
+While our method is model-agnostic and readily applicable to other transformer variants (e.g., DistilBERT, Llama 2), all primary experiments were conducted using **BERT-base** to ensure consistent comparison with prior work.  
 Additional results using other transformer models are provided in the supplementary material (available in the arXiv version of the paper).
 
 ### 📊 Datasets
