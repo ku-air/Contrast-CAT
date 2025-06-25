@@ -18,7 +18,7 @@ Experimental results across various datasets and models confirm that Contrast-CA
 
 ### Datasets
 We used five publicly available NLP datasets for text classification tasks:
-  * Amazon and Yelp Polarity : Xiang Zhang, Junbo Zhao, and Yann LeCun. Characterlevel convolutional networks for text classification. In NIPS, 2015.
+  * Amazon and Yelp Polarity : Xiang Zhang, Junbo Zhao, and Yann LeCun. Character Level convolutional networks for text classification. In NIPS, 2015.
   * SST2 : Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning, Andrew Ng, and Christopher Potts. Recursive deep models for semantic compositionality over a sentiment treebank. In EMNLP, 2013.
   * IMDB : Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. Learning word vectors for sentiment analysis. In ACL-HLT, 2011.
   * AgNews : Gianna M. Del Corso, Antonio Gullí, and Francesco Romani. Ranking a stream of news. In WWW, 2005.
