@@ -3,7 +3,6 @@
 
 AIRLAB, School of Cybersecurity, Korea University
 
----
 
 ### 📄 Abstract
 
@@ -13,6 +12,7 @@ Experimental results across various datasets and models confirm that Contrast-CA
 
 Keywords: Transformer, Interpretability, XAI, Attention, Contrast-based
 
+---
 
 ## ⚙️ Environment
 
@@ -45,6 +45,7 @@ We used five publicly available NLP datasets for text classification tasks:
 - **AG News**  
   _Del Corso et al._ [Ranking a Stream of News](https://dl.acm.org/doi/10.1145/1060745.1060764). WWW, 2005.
 
+---
 
 ## 📈 Main Results
 
@@ -68,13 +69,14 @@ Contrast-CAT outperforms all baselines across all datasets in both AOPC and LOdd
 ### 📊 MoRF-based Evaluation
 
 <p align="center">
-  <img src="figs/plot_MoRF" width="650"/>
+  <img src="figs/plot_MoRF.png" width="650"/>
   <br/>
   <em>Figure: MoRF-based AOPC and LOdds comparison. Higher AOPC and lower LOdds are better.</em>
 </p>
 
+---
 
-### Citation
+## Citation
 
 If you found this work or code useful, please cite us:
 
