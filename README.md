@@ -89,3 +89,5 @@ If you found this work or code useful, please cite us:
   booktitle={The 41st Conference on Uncertainty in Artificial Intelligence}
 }
 ```
+
+📄 [Official Paper on OpenReview (UAI 2025)](https://openreview.net/forum?id=vaQMMxhCqy)
