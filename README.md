@@ -11,6 +11,7 @@ Transformers have profoundly influenced AI research, but explaining their decisi
 To address this limitation, we propose ContrastCAT, a novel activation contrast-based attribution method that refines token-level attributions by filtering out class-irrelevant features. By contrasting the activations of an input sequence with reference activations, Contrast-CAT generates clearer and more faithful attribution maps. 
 Experimental results across various datasets and models confirm that Contrast-CAT consistently outperforms stateof-the-art methods. Notably, under the MoRF setting, it achieves average improvements of ×1.30 in AOPC and ×2.25 in LOdds over the most competing methods, demonstrating its effectiveness in enhancing interpretability for transformer-based text classification.
 
+**Keywords**: Transformer, Interpretability, XAI, Attention, Contrast-based
 ---
 
 ### ⚙️ Environment
