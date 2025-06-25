@@ -16,9 +16,26 @@ Experimental results across various datasets and models confirm that Contrast-CA
   * Hugging Face Hub v0.14.1
 
 
-### Datasets
+### 📊 Datasets
+
 We used five publicly available NLP datasets for text classification tasks:
-  * Amazon and Yelp Polarity : Xiang Zhang, Junbo Zhao, and Yann LeCun. Character Level convolutional networks for text classification. In NIPS, 2015.
-  * SST2 : Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning, Andrew Ng, and Christopher Potts. Recursive deep models for semantic compositionality over a sentiment treebank. In EMNLP, 2013.
-  * IMDB : Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. Learning word vectors for sentiment analysis. In ACL-HLT, 2011.
-  * AgNews : Gianna M. Del Corso, Antonio Gullí, and Francesco Romani. Ranking a stream of news. In WWW, 2005.
+
+- **Amazon Polarity**  
+  _Zhang et al._
+  [Character-level Convolutional Networks for Text Classification](https://papers.nips.cc/paper_files/paper/2015/file/250cf8b51c773f3f8dc8b4be867a9a02-Paper.pdf). NeurIPS, 2015.
+
+- **Yelp Polarity**  
+  _Xiang Zhang et al._
+  Same as Amazon Polarity (subset of the same paper).
+
+- **SST-2 (Stanford Sentiment Treebank)**  
+  _Socher et al._  
+  [Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank](https://aclanthology.org/D13-1170). EMNLP, 2013.
+
+- **IMDB Reviews**  
+  _Maas et al._  
+  [Learning Word Vectors for Sentiment Analysis](https://aclanthology.org/P11-1015). ACL-HLT, 2011.
+
+- **AG News**  
+  _Del Corso et al._
+  [Ranking a Stream of News](https://dl.acm.org/doi/10.1145/1060745.1060781). WWW, 2005.
