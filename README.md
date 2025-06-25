@@ -62,7 +62,7 @@ We evaluated Contrast-CAT under both **MoRF** (Most Relevant First) and **LeRF**
 | IMDB    | AOPC ↑ | 0.644 (AttCAT) | **0.738**        |
 |         | LOdds ↓| 0.198 (AttCAT) | **0.101**        |
 | AG News    | AOPC ↑ | 0.354 (TIS) | **0.434**        |
-|         | LOdds ↓| 0.473 (AttCAT) | **0.363**        |
+|         | LOdds ↓| 0.473 (TIS) | **0.363**        |
 
 > **↑ Higher is better**, **↓ Lower is better**
 
@@ -71,7 +71,7 @@ Contrast-CAT outperforms all baselines across all datasets in both AOPC and LOdd
 ### 📊 MoRF-based Evaluation
 
 <p align="center">
-  <img src="figs/plot_MoRF.png" width="900"/>
+  <img src="figs/plot_MoRF.png" width="950"/>
   <br/>
   <em>Figure: MoRF(Most Relevant First)-based AOPC and LOdds comparison. Higher AOPC and lower LOdds are better.</em>
 </p>
