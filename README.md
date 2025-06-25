@@ -71,7 +71,7 @@ Contrast-CAT outperforms all baselines across all datasets in both AOPC and LOdd
 <p align="center">
   <img src="figs/plot_MoRF.png" width="900"/>
   <br/>
-  <em>Figure: MoRF-based AOPC and LOdds comparison. Higher AOPC and lower LOdds are better.</em>
+  <em>Figure: MoRF(Most Relevant First)-based AOPC and LOdds comparison. Higher AOPC and lower LOdds are better.</em>
 </p>
 
 ---
