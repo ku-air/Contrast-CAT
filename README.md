@@ -21,7 +21,8 @@ You can read the full paper at
 
   * Python v3.7.4
   * PyTorch v1.9.1
-  * Hugging Face Hub v0.14.1
+  * Huggingface-hub v0.14.1
+  * datasets v2.13.2
 
 ### Model
 
