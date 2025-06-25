@@ -11,6 +11,7 @@ To address this limitation, we propose ContrastCAT, a novel activation contrast-
 Experimental results across various datasets and models confirm that Contrast-CAT consistently outperforms stateof-the-art methods. Notably, under the MoRF setting, it achieves average improvements of ×1.30 in AOPC and ×2.25 in LOdds over the most competing methods, demonstrating its effectiveness in enhancing interpretability for transformer-based text classification.
 
 Keywords: Transformer, Interpretability, XAI, Attention, Contrast-based
+
 📄 [Official Paper on OpenReview (UAI 2025)](https://openreview.net/forum?id=vaQMMxhCqy)
 
 ---
