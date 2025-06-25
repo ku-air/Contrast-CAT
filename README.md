@@ -38,3 +38,36 @@ We used five publicly available NLP datasets for text classification tasks:
 
 - **AG News**  
   _Del Corso et al._ [Ranking a Stream of News](https://dl.acm.org/doi/10.1145/1060745.1060764). WWW, 2005.
+
+---
+
+### 📊 Datasets
+
+We used five publicly available NLP datasets for text classification tasks:
+
+- **Amazon Polarity**  
+  _Zhang et al._ [Character-level Convolutional Networks for Text Classification](https://papers.nips.cc/paper_files/paper/2015/file/250cf8b51c773f3f8dc8b4be867a9a02-Paper.pdf). NeurIPS, 2015.
+
+- **Yelp Polarity**  
+  _Xiang Zhang et al._ Same as Amazon Polarity (subset of the same paper).
+
+- **SST-2 (Stanford Sentiment Treebank)**  
+  _Socher et al._ [Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank](https://aclanthology.org/D13-1170). EMNLP, 2013.
+
+- **IMDB Reviews**  
+  _Maas et al._ [Learning Word Vectors for Sentiment Analysis](https://aclanthology.org/P11-1015). ACL-HLT, 2011.
+
+- **AG News**  
+  _Del Corso et al._ [Ranking a Stream of News](https://dl.acm.org/doi/10.1145/1060745.1060764). WWW, 2005.
+
+
+
+## Citation
+
+If you found this work or code useful, please cite us:
+
+@inproceedings{hancontrast,
+  title={Contrast-CAT: Contrasting Activations for Enhanced Interpretability in Transformer-based Text Classifiers},
+  author={Han, Sungmin and Lee, Jeonghyun and Lee, Sangkyun},
+  booktitle={The 41st Conference on Uncertainty in Artificial Intelligence}
+}
