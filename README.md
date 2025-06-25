@@ -29,7 +29,7 @@ We used five publicly available NLP datasets for text classification tasks:
 - **Yelp Polarity**  
   _Xiang Zhang et al._ Same as Amazon Polarity (subset of the same paper).
 
-- **SST-2 (Stanford Sentiment Treebank)**  
+- **SST-2**  
   _Socher et al._ [Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank](https://aclanthology.org/D13-1170). EMNLP, 2013.
 
 - **IMDB Reviews**  
