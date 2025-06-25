@@ -15,19 +15,19 @@ Keywords: Transformer, Interpretability, XAI, Attention, Contrast-based
 
 ---
 
-### ⚙️ Environment
+## ⚙️ Environment
 
   * Python v3.7.4
   * PyTorch v1.9.1
   * Hugging Face Hub v0.14.1
 
-### 🧪 Model
+### Model
 
 We implemented Contrast-CAT on top of the **BERT-base** architecture (12 encoder layers, 12 attention heads) using the Hugging Face Transformers library.
 While our method is model-agnostic and readily applicable to other transformer variants (e.g., DistilBERT, Llama 2), all primary experiments were conducted using **BERT-base** to ensure consistent comparison with prior work.  
 Additional results using other transformer models are provided in the supplementary material (available in the arXiv version of the paper).
 
-### 📊 Datasets
+### Datasets
 
 We used five publicly available NLP datasets for text classification tasks:
 
@@ -47,7 +47,27 @@ We used five publicly available NLP datasets for text classification tasks:
   _Del Corso et al._ [Ranking a Stream of News](https://dl.acm.org/doi/10.1145/1060745.1060764). WWW, 2005.
 
 
-## Citation
+### 📈 Main Results
+
+We evaluated Contrast-CAT under both **MoRF** (Most Relevant First) and **LeRF** (Least Relevant First) settings using AOPC and LOdds metrics. The results below summarize our method's performance compared to 11 prior attribution methods.
+
+| Dataset | Metric | Best Baseline | **Contrast-CAT** |
+|---------|--------|----------------|------------------|
+| Amazon  | AOPC ↑ | 0.560 (TIS)    | **0.703**        |
+|         | LOdds ↓| 0.241 (TIS)    | **0.117**        |
+| Yelp    | AOPC ↑ | 0.494 (TIS)    | **0.687**        |
+|         | LOdds ↓| 0.346 (AttCAT) | **0.131**        |
+| SST-2   | AOPC ↑ | 0.463 (TIS)    | **0.654**        |
+|         | LOdds ↓| 0.367 (TIS)    | **0.157**        |
+| IMDB    | AOPC ↑ | 0.644 (AttCAT) | **0.738**        |
+|         | LOdds ↓| 0.198 (AttCAT) | **0.101**        |
+
+> **↑ Higher is better**, **↓ Lower is better**
+
+Contrast-CAT outperforms all baselines across all datasets in both AOPC and LOdds, under the MoRF setting. For full tables and LeRF results, please refer to the paper or the [supplementary material](link-to-arxiv).
+
+
+### Citation
 
 If you found this work or code useful, please cite us:
 
