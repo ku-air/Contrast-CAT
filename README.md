@@ -13,7 +13,6 @@ Experimental results across various datasets and models confirm that Contrast-CA
 
 Keywords: Transformer, Interpretability, XAI, Attention, Contrast-based
 
----
 
 ## ⚙️ Environment
 
@@ -47,7 +46,7 @@ We used five publicly available NLP datasets for text classification tasks:
   _Del Corso et al._ [Ranking a Stream of News](https://dl.acm.org/doi/10.1145/1060745.1060764). WWW, 2005.
 
 
-### 📈 Main Results
+## 📈 Main Results
 
 We evaluated Contrast-CAT under both **MoRF** (Most Relevant First) and **LeRF** (Least Relevant First) settings using AOPC and LOdds metrics. The results below summarize our method's performance compared to 11 prior attribution methods.
 
@@ -65,6 +64,14 @@ We evaluated Contrast-CAT under both **MoRF** (Most Relevant First) and **LeRF**
 > **↑ Higher is better**, **↓ Lower is better**
 
 Contrast-CAT outperforms all baselines across all datasets in both AOPC and LOdds, under the MoRF setting. For full tables and LeRF results, please refer to the paper or the [supplementary material](link-to-arxiv).
+
+### 📊 MoRF-based Evaluation
+
+<p align="center">
+  <img src="figs/plot_MoRF" width="650"/>
+  <br/>
+  <em>Figure: MoRF-based AOPC and LOdds comparison. Higher AOPC and lower LOdds are better.</em>
+</p>
 
 
 ### Citation
