@@ -108,7 +108,7 @@ python get_attribute.py --method [attribution_method] --dataset_name [dataset_na
 
 Optional arguments:
 
---attribution_method: can be Contrast-CAT, AttCAT, CAT, LRP, Partial LRP, RawAtt, Rollout, Grad-SAM.
+--attribution_method: can be Contrast-CAT, AttCAT, CAT, LRP, RawAtt, Rollout, Grad-SAM.
 
 
 ## 🔗 Related Work
