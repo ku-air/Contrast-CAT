@@ -83,6 +83,8 @@ Contrast-CAT outperforms all baselines across all datasets in both AOPC and LOdd
 Contrast-CAT is designed to work efficiently with a pre-built reference library, which significantly reduces computational cost during attribution generation.
 We also implemented an on-the-fly version of Contrast-CAT that dynamically selects references at runtime via constrained random sampling.
 
+**Table: Attribution quality and runtime comparison between the default Contrast-CAT and the on-the-fly version, evaluated on the SST-2 dataset.**
+
 | Variant                      | AOPC ↑        | LOdds ↓       | Runtime (sec/sample) ↓ |
 | ---------------------------- | ------------- | ------------- | ---------------------- |
 | Reference Library (default)  | **0.654**     | **0.157**     | **2.13**               |
