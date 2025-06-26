@@ -112,7 +112,7 @@ python get_attribute.py --method [attribution_method] --dataset_name [dataset_na
 
 Available methods: Contrast-CAT, AttCAT, CAT, LRP, RawAtt, Rollout, Grad-SAM
 
-If the method does not require a reference library (e.g., lrp, gradsam), pass:
+If the method does not require a reference library (e.g., AttCAT, Grad-SAM), pass:
 ```
 --reference_library_path None
 ```
