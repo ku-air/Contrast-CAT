@@ -102,7 +102,9 @@ python run_contrastcat.py \
 ```
 
 Optional arguments:
+
 --reference_mode: method to select references (mean, nearest, etc.)
+
 --attribution_method: can be contrastcat, rawatt, lrp, etc.
 
 ## 📬 Contact
