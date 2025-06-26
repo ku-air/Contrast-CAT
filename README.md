@@ -94,7 +94,7 @@ We also implemented an on-the-fly version of Contrast-CAT that dynamically selec
 Before running Contrast-CAT, you must build the class-wise activation reference libraries for each dataset.
 
 ```
-python build_reference_library.py --dataset_name sst2 (your dataset)
+python build_reference_library.py --dataset_name [dataset_name]
 ```
 
 This script saves reference activation libraries to ./ref_lib/{dataset}.pkl.
@@ -103,18 +103,12 @@ These libraries are required to compute contrastive attribution maps.
 To run Contrast-CAT on a dataset (e.g., SST-2), use:
 
 ```
-python run_contrastcat.py \
-  --model_name_or_path textattack/bert-base-uncased-SST-2 \
-  --dataset_name sst2 \
-  --reference_library_path ./ref_lib/sst2.pkl \
-  --output_dir results/sst2/
+python get_attribute.py --method [attribution_method] --dataset_name [dataset_name] --reference_library_path [path_to_reference_library]
 ```
 
 Optional arguments:
 
---reference_mode: method to select references (mean, nearest, etc.)
-
---attribution_method: can be contrastcat, rawatt, lrp, etc.
+--attribution_method: can be Contrast-CAT, AttCAT, CAT, LRP, Partial LRP, RawAtt, Rollout, Grad-SAM.
 
 
 ## 🔗 Related Work
