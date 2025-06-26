@@ -116,6 +116,16 @@ Optional arguments:
 
 --attribution_method: can be contrastcat, rawatt, lrp, etc.
 
+
+## 🔗 Related Work
+
+Our research on **Contrast-CAT** for Transformer-based models is motivated by our earlier work on CNNs:
+
+- **GitHub**: [https://github.com/sanglee/Libra-CAM](https://github.com/sanglee/Libra-CAM)  
+- **Paper**: Sangkyun Lee and Sungmin Han,  
+  _“[Libra-CAM: An Activation-Based Attribution Based on the Linear Approximation of Deep Neural Nets and Threshold Calibration](https://www.ijcai.org/proceedings/2022/442)”_, IJCAI 2022
+
+
 ## 📬 Contact
 
 For questions or collaboration inquiries — including building customized reference libraries, adapting Contrast-CAT to new domains, or integrating it with your own models — please refer to the contact information provided in the paper.
