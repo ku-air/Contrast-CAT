@@ -78,6 +78,18 @@ Contrast-CAT outperforms all baselines across all datasets in both AOPC and LOdd
   <em>Figure: MoRF(Most Relevant First)-based AOPC and LOdds comparison. Higher AOPC and lower LOdds are better.</em>
 </p>
 
+### 🌀 On-the-Fly Contrast-CAT
+
+Contrast-CAT is designed to work efficiently with a pre-built reference library, which significantly reduces computational cost during attribution generation.
+We also implemented an on-the-fly version of Contrast-CAT that dynamically selects references at runtime via constrained random sampling.
+
+| Variant                      | AOPC ↑        | LOdds ↓       | Runtime (sec/sample) ↓ |
+| ---------------------------- | ------------- | ------------- | ---------------------- |
+| Reference Library (default)  | **0.654**     | **0.157**     | **2.13**               |
+| On-the-Fly (random sampling) | 0.647 ± 0.009 | 0.159 ± 0.012 | 4.78                   |
+
+📌 The on-the-fly version remains competitive in both attribution quality and runtime, outperforming other attribution methods.
+
 ---
 
 ## 🚀 Running Contrast-CAT
