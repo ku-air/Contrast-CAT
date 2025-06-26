@@ -103,12 +103,6 @@ Before running Contrast-CAT, you must build the class-wise activation reference 
 python build_reference_library.py --dataset_name [dataset_name]
 ```
 
-This script saves reference activation libraries to 
-```
-./ref_lib/{dataset}.pkl.
-```
-These libraries are required to compute contrastive attribution maps.
-
 ### 2️⃣ Generate Attribution Maps
 
 Once the reference library is ready, you can compute attributions using:
