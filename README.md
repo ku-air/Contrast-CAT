@@ -121,7 +121,6 @@ Optional arguments:
 
 Our research on **Contrast-CAT** for Transformer-based models is motivated by our earlier work on CNNs:
 
-- **GitHub**: [https://github.com/sanglee/Libra-CAM](https://github.com/sanglee/Libra-CAM)  
 - **Paper**: Sangkyun Lee and Sungmin Han,  
   _“[Libra-CAM: An Activation-Based Attribution Based on the Linear Approximation of Deep Neural Nets and Threshold Calibration](https://www.ijcai.org/proceedings/2022/442)”_, IJCAI 2022
 
