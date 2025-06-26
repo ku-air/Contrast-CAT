@@ -91,25 +91,79 @@ We also implemented an on-the-fly version of Contrast-CAT that dynamically selec
 
 ## 🚀 Running Contrast-CAT
 
+To use Contrast-CAT and other attribution methods, follow the steps below.
+
+---
+
+### 1️⃣ Build Reference Activation Library
+
 Before running Contrast-CAT, you must build the class-wise activation reference libraries for each dataset.
 
 ```
 python build_reference_library.py --dataset_name [dataset_name]
 ```
 
-This script saves reference activation libraries to ./ref_lib/{dataset}.pkl.
+This script saves reference activation libraries to 
+```
+./ref_lib/{dataset}.pkl.
+```
 These libraries are required to compute contrastive attribution maps.
 
-To run Contrast-CAT on a dataset (e.g., SST-2), use:
+### 2️⃣ Generate Attribution Maps
 
+Once the reference library is ready, you can compute attributions using:
 ```
 python get_attribute.py --method [attribution_method] --dataset_name [dataset_name] --reference_library_path [path_to_reference_library]
 ```
 
-Optional arguments:
+Available methods:
+--Contrast-CAT, AttCAT, CAT, LRP, RawAtt, Rollout, Grad-SAM
 
---attribution_method: can be Contrast-CAT, AttCAT, CAT, LRP, RawAtt, Rollout, Grad-SAM.
+If the method does not require a reference library (e.g., lrp, gradsam), pass:
+```
+--reference_library_path None
+```
 
+### 3️⃣ Evaluate Attribution Performance
+
+To compute evaluation metrics (AOPC and LogOdds), run:
+```
+python eval_attribute.py --method [attribution_method] --dataset_name [dataset_name]
+```
+
+This will save results to:
+```
+./stats/[dataset_name]/eval_results_[method].pickle
+```
+
+### 4️⃣ Visualize Evaluation Results
+To visualize AOPC and LogOdds degradation curves:
+- Open and run the Jupyter notebook:
+```
+attribution_curve_plot.ipynb
+```
+
+✅ Example: Running on SST-2 with Contrast-CAT
+
+# Step 1: Build reference library
+```
+python build_reference_library.py --dataset_name sst2
+```
+
+# Step 2: Generate attribution maps
+```
+python get_attribute.py --method contrastcat --dataset_name sst2 --reference_library_path ./ref_lib/sst2.pkl
+```
+
+# Step 3: Evaluate
+```
+python eval_attribute.py --method contrastcat --dataset_name sst2
+```
+
+# Step 4: Visualize
+```
+# Open attribution_curve_plot.ipynb and run all cells
+```
 
 ## 🔗 Related Work
 
