@@ -143,6 +143,8 @@ To visualize AOPC and LogOdds degradation curves:
 attribution_curve_plot.ipynb
 ```
 
+---
+
 ## 🔗 Related Work
 
 **Contrast-CAT** is motivated by our earlier work on CNNs:
