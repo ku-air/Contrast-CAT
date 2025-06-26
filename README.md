@@ -125,11 +125,6 @@ To compute evaluation metrics (AOPC and LogOdds), run:
 python eval_attribute.py --method [attribution_method] --dataset_name [dataset_name]
 ```
 
-This will save results to:
-```
-./stats/[dataset_name]/eval_results_[method].pickle
-```
-
 ### 4️⃣ Visualize Evaluation Results
 To visualize AOPC and LogOdds degradation curves:
 - Open and run the Jupyter notebook:
