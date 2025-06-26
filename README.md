@@ -143,28 +143,6 @@ To visualize AOPC and LogOdds degradation curves:
 attribution_curve_plot.ipynb
 ```
 
-✅ Example: Running on SST-2 with Contrast-CAT
-
-# Step 1: Build reference library
-```
-python build_reference_library.py --dataset_name sst2
-```
-
-# Step 2: Generate attribution maps
-```
-python get_attribute.py --method contrastcat --dataset_name sst2 --reference_library_path ./ref_lib/sst2.pkl
-```
-
-# Step 3: Evaluate
-```
-python eval_attribute.py --method contrastcat --dataset_name sst2
-```
-
-# Step 4: Visualize
-```
-# Open attribution_curve_plot.ipynb and run all cells
-```
-
 ## 🔗 Related Work
 
 **Contrast-CAT** is motivated by our earlier work on CNNs:
