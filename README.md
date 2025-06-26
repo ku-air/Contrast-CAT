@@ -107,7 +107,7 @@ Optional arguments:
 
 ## 📬 Contact
 
-For questions, feedback, or collaboration inquiries, please refer to the contact information provided in the paper.
+For questions or collaboration inquiries, please refer to the contact information provided in the paper.
 
 > 🔄 If you are interested in the **on-the-fly version** of Contrast-CAT (which does not require pre-built reference libraries), please **contact us via the email provided in the paper**.
 
