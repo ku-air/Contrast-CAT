@@ -125,7 +125,7 @@ python eval_attribute.py --method [attribution_method] --dataset_name [dataset_n
 ```
 
 ### 4️⃣ Visualize Evaluation Results
-To visualize AOPC and LogOdds degradation curves:
+To visualize AOPC and LOdds degradation curves:
 - Open and run the Jupyter notebook:
 ```
 attribution_curve_plot.ipynb
