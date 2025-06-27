@@ -119,7 +119,7 @@ If the method does not require a reference library (e.g., AttCAT, Grad-SAM), pas
 
 ### 3️⃣ Evaluate Attribution Performance
 
-To compute evaluation metrics (AOPC and LogOdds), run:
+To compute evaluation metrics (AOPC and LOdds), run:
 ```
 python eval_attribute.py --method [attribution_method] --dataset_name [dataset_name]
 ```
