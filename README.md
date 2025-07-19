@@ -64,7 +64,7 @@ We evaluated Contrast-CAT under both **MoRF** (Most Relevant First) and **LeRF**
 
 > **↑ Higher is better**, **↓ Lower is better**
 
-Contrast-CAT outperforms all baselines across all datasets in both AOPC and LOdds, under the MoRF setting. For full tables and LeRF results, please refer to the paper or the [supplementary material](link-to-arxiv).
+Contrast-CAT outperforms all baselines across all datasets in both AOPC and LOdds, under the MoRF setting.
 
 <p align="center">
   <img src="figs/plot_MoRF.png" width="950"/>
