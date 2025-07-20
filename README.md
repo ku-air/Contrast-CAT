@@ -19,14 +19,13 @@ You can read the full paper at
 
 ## ⚙️ Environment
 
-  * Python v3.7.4
   * PyTorch v1.9.1
   * Huggingface-hub v0.14.1
   * datasets v2.13.2
 
 ### Model
 
-We implemented Contrast-CAT on top of the **BERT-base** architecture (12 encoder layers, 12 attention heads) using the Hugging Face Transformers library.
+We implemented Contrast-CAT on top of the **BERT-base** architecture (12 encoder layers, 12 attention heads).
 Additional results using other transformer models are provided in the supplementary material (available in the arXiv version of the paper).
 
 ### Datasets
