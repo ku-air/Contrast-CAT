@@ -47,8 +47,6 @@ We used five publicly available NLP datasets for text classification tasks:
 
 ## 📈 Main Results
 
-We evaluated Contrast-CAT under both **MoRF** (Most Relevant First) and **LeRF** (Least Relevant First) settings using AOPC and LOdds metrics. The results below summarize our method's performance compared to prior attribution methods.
-
 | Dataset | Metric | Best Baseline | **Contrast-CAT** |
 |---------|--------|----------------|------------------|
 | Amazon  | AOPC ↑ | 0.560 (TIS)    | **0.703**        |
