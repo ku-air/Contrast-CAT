@@ -26,7 +26,7 @@ You can read the full paper at
 ### Model
 
 We implemented Contrast-CAT on top of the **BERT-base** architecture (12 encoder layers, 12 attention heads).
-Additional results using other transformer models are provided in the supplementary material (available in the arXiv version of the paper).
+Additional results using other transformer models are provided in the supplementary material, available in the arXiv version of our paper.
 
 ### Datasets
 
