@@ -87,7 +87,7 @@ To use Contrast-CAT and other attribution methods, follow the steps below.
 
 ---
 
-### 1️⃣ Build Reference Activation Library
+### Build Reference Activation Library
 
 Before running Contrast-CAT, you must build the class-wise activation reference libraries for each dataset.
 
@@ -95,7 +95,7 @@ Before running Contrast-CAT, you must build the class-wise activation reference 
 python build_reference_library.py --dataset_name [dataset_name]
 ```
 
-### 2️⃣ Generate Attribution Maps
+### Generate Attribution Maps
 
 Once the reference library is ready, you can compute attributions using:
 ```
@@ -109,14 +109,14 @@ If the method does not require a reference library (e.g., AttCAT, Grad-SAM), pas
 --reference_library_path None
 ```
 
-### 3️⃣ Evaluate Attribution Performance
+### Evaluate Attribution Performance
 
 To compute evaluation metrics (AOPC and LOdds), run:
 ```
 python eval_attribute.py --method [attribution_method] --dataset_name [dataset_name]
 ```
 
-### 4️⃣ Visualize Evaluation Results
+### Visualize Evaluation Results
 To visualize AOPC and LOdds degradation curves:
 - Open and run the Jupyter notebook:
 ```
