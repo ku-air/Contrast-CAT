@@ -77,7 +77,7 @@ We also implemented an on-the-fly version of Contrast-CAT that dynamically selec
 | Reference Library (default)  | **0.654**     | **0.157**     | **2.13**               |
 | On-the-Fly (random sampling) | 0.647 ± 0.009 | 0.159 ± 0.012 | 4.78                   |
 
-📌 The on-the-fly version remains competitive in both attribution quality and runtime, outperforming other attribution methods.
+📌 The on-the-fly version remains competitive in both attribution quality and runtime.
 
 ---
 
