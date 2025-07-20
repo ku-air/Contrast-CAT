@@ -135,7 +135,7 @@ attribution_curve_plot.ipynb
 
 ## 📬 Contact
 
-For questions or collaboration inquiries — including building customized reference libraries, adapting Contrast-CAT to new domains, or integrating it with your own models — please refer to the contact information provided in the paper.
+For questions or collaboration —such as building customized reference libraries, adapting Contrast-CAT to new domains, or integrating it with your own models — please refer to the contact information provided in our paper.
 
 > 🔄 If you're interested in the **on-the-fly version** of Contrast-CAT (which does not require pre-built reference libraries), feel free to **reach out via the email listed in the paper**.
 
