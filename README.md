@@ -84,7 +84,7 @@ We also implemented an on-the-fly version of Contrast-CAT that dynamically selec
 ## 🚀 Running Contrast-CAT
 
 ### Acknowledgments
-This project partially uses code from the following open-source project in implementing the baseline method:
+This project incorporates portions of code from the following open-source project as part of the implementation of baseline methods:
 - [AttCAT: Explaining Transformers via Attentive Class Activation Tokens](https://github.com/qiangyao1988/AttCAT) by Yao Qiang et al.
 
 To use Contrast-CAT and other attribution methods, follow the steps below.
