@@ -83,6 +83,10 @@ We also implemented an on-the-fly version of Contrast-CAT that dynamically selec
 
 ## 🚀 Running Contrast-CAT
 
+### Acknowledgments
+This project partially uses code from the following open-source project in implementing the baseline method:
+- [AttCAT: Attention-based CNN for Attribution](https://github.com/qiangyao1988/AttCAT) by Yao Qiang et al.
+
 To use Contrast-CAT and other attribution methods, follow the steps below.
 
 ---
