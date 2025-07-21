@@ -102,7 +102,7 @@ Once the reference library is ready, you can compute attributions using:
 python get_attribute.py --method [attribution_method] --dataset_name [dataset_name] --reference_library_path [path_to_reference_library]
 ```
 
-> 🔄 Available methods: Contrast-CAT, AttCAT, CAT, LRP, RawAtt, Rollout, Grad-SAM
+> Available methods: Contrast-CAT, AttCAT, CAT, LRP, RawAtt, Rollout, Grad-SAM
 
 If the method does not require a reference library (e.g., AttCAT, Grad-SAM), pass:
 ```
