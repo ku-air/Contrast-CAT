@@ -149,9 +149,16 @@ For questions or collaboration —such as building customized reference librarie
 If you found this work or code useful, please cite us:
 
 ```
-@inproceedings{hancontrast,
-  title={Contrast-CAT: Contrasting Activations for Enhanced Interpretability in Transformer-based Text Classifiers},
-  author={Han, Sungmin and Lee, Jeonghyun and Lee, Sangkyun},
-  booktitle={The 41st Conference on Uncertainty in Artificial Intelligence}
+@inproceedings{pmlr-v286-han25a,
+  title = 	 {Contrast-CAT: Contrasting Activations for Enhanced Interpretability in Transformer-based Text Classifiers},
+  author =       {Han, Sungmin and Lee, Jeonghyun and Lee, Sangkyun},
+  booktitle = 	 {Proceedings of the Forty-first Conference on Uncertainty in Artificial Intelligence},
+  pages = 	 {1616--1625},
+  year = 	 {2025},
+  editor = 	 {Chiappa, Silvia and Magliacane, Sara},
+  volume = 	 {286},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--25 Jul},
+  publisher =    {PMLR}
 }
 ```
