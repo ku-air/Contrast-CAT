@@ -13,7 +13,7 @@ Experimental results across various datasets and models confirm that Contrast-CA
 Keywords: Transformer, Interpretability, XAI, Attention, Contrast-based
 
 You can read the full paper at  
-👉 [Official Paper on OpenReview (UAI 2025)](https://openreview.net/forum?id=vaQMMxhCqy)
+👉 [Official Paper on OpenReview (UAI 2025)]([https://openreview.net/forum?id=vaQMMxhCqy](https://proceedings.mlr.press/v286/han25a.html))
 
 ---
 
